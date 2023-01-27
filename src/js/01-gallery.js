@@ -18,8 +18,6 @@ gallery.innerHTML = galleryItems
   })
   .join('');
 
-// gallery.addEventListener("click", onGalleryClick);
-
 const lightbox = new SimpleLightbox('.gallery a', {
   captionPosition: 'bottom',
   captionsData: 'alt',
